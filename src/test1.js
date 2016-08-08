@@ -7,10 +7,6 @@ var HelloWorld = React.createClass({
 		);
 	}
 });
-ReactDOM.render(
-	<h1>HelloWorld</h1>,
-	document.getElementById('test1')
-);
 setInterval(function(){
 	ReactDOM.render(
 		<HelloWorld date={new Date()} name="xxy"/>,
